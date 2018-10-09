@@ -104,28 +104,18 @@
                         <thead style="background: black;">
                         <tr>
                             <bold>
-                                <th class="tstyle1 " style="text-align:left">Date</th>
+                                <th class="tstyle1 " style="text-align:center">Dates</th>
                             </bold>
                             <bold>
-                                <th class="tstyle1 " style="text-align:left">Subject</th>
+                                <th class="tstyle1 " style="text-align:center">Notice</th>
                             </bold>
-                            <bold>
-                                <th class="tstyle1 " style="text-align:left">Topic</th>
-                            </bold>
-                            <bold>
-                                <th class="tstyle1 " style="text-align:left">Time</th>
-                            </bold>
-
                         </tr>
                         </thead>
                         <tbody>
-                        {% for i in trecords %}
+                        {% for i in records %}
                         <tr>
                             <td class="tstyle">{{i.date}}</td>
-                            <td class="tstyle">{{i.subject}}</td>
-                            <td class="tstyle">{{i.topic}}</td>
-                            <td class="tstyle">{{i.time}}</td>
-
+                            <td class="tstyle">{{i.notice}}</td>
                         </tr>
                         {% endfor %}
 

@@ -25,16 +25,16 @@
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <style type="text/css">
-
+    
       .navtop
       {
-
+  
         box-shadow: 0px 2px 5px rgba(0,0,0,0.8);
       }
       .navbot
       {
 
-
+        
         box-shadow: 0px 1px 20px rgba(0,0,0,0.8);
       }
 
@@ -66,7 +66,7 @@
         font-size: 30px;
 
       }
-
+      
 
 
     </style>
@@ -104,28 +104,15 @@
                         <thead style="background: black;">
                         <tr>
                             <bold>
-                                <th class="tstyle1 " style="text-align:left">Date</th>
-                            </bold>
-                            <bold>
-                                <th class="tstyle1 " style="text-align:left">Subject</th>
-                            </bold>
-                            <bold>
-                                <th class="tstyle1 " style="text-align:left">Topic</th>
-                            </bold>
-                            <bold>
-                                <th class="tstyle1 " style="text-align:left">Time</th>
+                                <th class="tstyle1 " style="text-align:left">Dates</th>
                             </bold>
 
                         </tr>
                         </thead>
                         <tbody>
-                        {% for i in trecords %}
+                        {% for i in records %}
                         <tr>
-                            <td class="tstyle">{{i.date}}</td>
-                            <td class="tstyle">{{i.subject}}</td>
-                            <td class="tstyle">{{i.topic}}</td>
-                            <td class="tstyle">{{i.time}}</td>
-
+                            <td class="tstyle">{{i.date}} {{i.stu.rno}}</td>
                         </tr>
                         {% endfor %}
 
