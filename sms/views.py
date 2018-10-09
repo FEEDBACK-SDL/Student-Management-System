@@ -63,19 +63,16 @@ def attendance(request):
         m = Student.objects.all()
         dateT = request.POST["dateT"]
         for i in m:
-            ap = request.POST.get("ap" + str(i.rno))
-            if ap == '0':
-                attend = Attendance.objects.create(date=dateT, is_pre=ap, stu=i)
+            ap = request.POST["ap" + {{i.rno}}]
+            attend = Attendance.objects.create(date=dateT, is_pre=ap, stu=i)
         context = {
             'fname': "Amey",
             'lname': "Deshpande",
             'snackBar': True,
             'snackBarStyle': 'hsdone',
-            'SnackBarText': 'Attendance  added Successfully'
+            'SnackBarText': 'Test Data added Successfully'
         }
         return render(request, "testrecords.html", context)
-
-
 def aft(request):
     if request.method == "GET":
         context = {
@@ -85,3 +82,27 @@ def aft(request):
         return render(request, "aft.html", context)
     else:
         pass
+
+def login1(request):
+
+    return 0
+
+def absent(request):
+        pass
+#     arecords = Absent.objects.filter(sid=1)
+#
+#     return render(request, 'absent.html', {'records': arecords})
+
+def notice(request):
+
+    arecords = Notice.objects.all()
+
+    return render(request, 'notice.html', {'records': arecords})
+
+def profile(request):
+
+    return render(request, 'profilestudent.html', {})
+
+def profilep(request):
+
+    return render(request, 'parentprofile.html', {})

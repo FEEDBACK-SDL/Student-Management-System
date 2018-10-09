@@ -23,5 +23,9 @@ urlpatterns = [
     path('addTestRecords/<int:numR>/', views.addTestMarks),
     path('addtestrecords/<int:number>/', views.addTest),
     path('attendance/', views.attendance),
-    path('aft/', views.aft)
+    path('aft/', views.aft),
+    path('notice/', views.notice, name='notice'),
+    path('absent/', views.absent, name='absent'),
+    path('profile/', views.profile, name='profile'),
+    path('profilep/', views.profilep, name='profilep'),
 ]
