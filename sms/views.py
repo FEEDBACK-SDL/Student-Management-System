@@ -102,7 +102,7 @@ def aft(request):
 def aftList(request):
     start = datetime.datetime.now()
     end = start + datetime.timedelta(days=6)
-    test2 = Test.objects.filter(date=[start, end])
+    test2 = Test.objects.all()
     context = {
         'fname': "Amey",
         'lname': "Deshpande",
