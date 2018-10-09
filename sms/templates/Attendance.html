@@ -18,14 +18,14 @@
         </div>
     </div>
 </section>
-<form action="/" class="test-record-form" method="post">
+<form action="/attendance/" class="test-record-form" method="post">
     {% csrf_token %}
     <section class="container">
         <div class="row">
             <div class="col-md-2">
             </div>
             <div class="col-md-2">
-                <input class="form-control c-p" name="dateT" type="date" value="" placeholder="Date">
+                <input class="form-control c-p" name="dateT" type="date" placeholder="Date">
             </div>
             <div class="col-md-4">
             </div>
@@ -73,7 +73,7 @@
                             </td>
                             <td class="col-md-1">
                                 <center>
-                                    <label><input type="checkbox" name="ap{{x.rno}}" value=""></label>
+                                    <label><input type="checkbox" name="ap{{x.rno}}" value="0"></label>
                                 </center>
                             </td>
 
