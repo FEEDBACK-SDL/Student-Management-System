@@ -50,12 +50,26 @@ def addTestMarks(request, numR):
 
 
 def attendance(request):
-    m = Student.objects.all()
-    print(m)
-    context = {
-        'fname': "Amey",
-        'lname': "Deshpande",
-        'student': m
-    }
-
-    return render(request, "Attendance.html", context)
+    if request.method == "GET":
+        m = Student.objects.all()
+        print(m)
+        context = {
+            'fname': "Amey",
+            'lname': "Deshpande",
+            'student': m
+        }
+        return render(request, "Attendance.html", context)
+    else:
+        m = Student.objects.all()
+        dateT = request.POST["dateT"]
+        for i in m:
+            ap = request.POST["ap" + {{i.rno}}]
+            attend = Attendance.objects.create(date=dateT, is_pre=ap, stu=i)
+        context = {
+            'fname': "Amey",
+            'lname': "Deshpande",
+            'snackBar': True,
+            'snackBarStyle': 'hsdone',
+            'SnackBarText': 'Test Data added Successfully'
+        }
+        return render(request, "testrecords.html", context)

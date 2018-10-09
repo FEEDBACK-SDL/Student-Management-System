@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0719dad6-01b9-4f63-8109-0f8e2ac6abec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/Attendance.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sms/templates/attendance.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sms/static/css/main.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBMS/urls.py" afterPath="$PROJECT_DIR$/DBMS/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms/templates/addtestrecords.html" afterPath="$PROJECT_DIR$/sms/templates/addtestrecords.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms/templates/Attendance.html" afterPath="$PROJECT_DIR$/sms/templates/Attendance.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms/templates/layout.html" afterPath="$PROJECT_DIR$/sms/templates/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms/views.py" afterPath="$PROJECT_DIR$/sms/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="39" column="80" lean-forward="false" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
+            <state relative-caret-position="324">
+              <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -47,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="249">
+              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="16" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -91,9 +89,9 @@
       <list>
         <option value="$PROJECT_DIR$/DBMS/settings.py" />
         <option value="$PROJECT_DIR$/sms/admin.py" />
-        <option value="$PROJECT_DIR$/sms/views.py" />
         <option value="$PROJECT_DIR$/DBMS/urls.py" />
         <option value="$PROJECT_DIR$/sms/models.py" />
+        <option value="$PROJECT_DIR$/sms/views.py" />
       </list>
     </option>
   </component>
@@ -366,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539093173065</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1539094990103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539094990103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -415,16 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="39" column="80" lean-forward="false" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DBMS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -447,10 +442,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sms/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="249">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="16" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
