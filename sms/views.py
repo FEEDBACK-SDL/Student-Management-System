@@ -64,8 +64,9 @@ def attendance(request):
         m = Student.objects.all()
         dateT = request.POST["dateT"]
         for i in m:
-            ap = request.POST["ap" + {{i.rno}}]
-            attend = Attendance.objects.create(date=dateT, is_pre=ap, stu=i)
+            ap = request.POST.get("ap" + str(i.rno))
+            if not ap:
+                attend = Attendance.objects.create(date=dateT, stu=i)
         context = {
             'fname': "Amey",
             'lname': "Deshpande",
@@ -100,12 +101,12 @@ def aft(request):
 
 def aftList(request):
     start = datetime.datetime.now()
-    end = datetime.datetime(2030, 12, 18)
-    test2 = Test.objects.filter(date=[start, end])
+    end = start + datetime.timedelta(days=6)
+    test = Test.objects.all()
     context = {
         'fname': "Amey",
         'lname': "Deshpande",
-        'test': test2
+        'test': test
     }
     return render(request, "testlist.html", context)
 
