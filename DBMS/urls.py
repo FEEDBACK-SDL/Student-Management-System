@@ -28,4 +28,5 @@ urlpatterns = [
     path('absent/', views.absent, name='absent'),
     path('profile/', views.profile, name='profile'),
     path('profilep/', views.profilep, name='profilep'),
+    path('testList/', views.aftList)
 ]

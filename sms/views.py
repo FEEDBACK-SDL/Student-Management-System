@@ -1,4 +1,5 @@
 from django.shortcuts import render
+import datetime
 from .models import *
 
 
@@ -81,7 +82,32 @@ def aft(request):
         }
         return render(request, "aft.html", context)
     else:
-        pass
+        subject = request.POST["sub"]
+        datet = request.POST["dateT"]
+        tmarks = request.POST["tmarks"]
+        desc = request.POST["description"]
+        tea = Teacher.objects.get(id=1)
+        test = Test.objects.create(subject=subject, date=datet, desc=desc, tm=tmarks, teacher=tea)
+        context = {
+            'fname': "Amey",
+            'lname': "Deshpande",
+            'snackBar': True,
+            'snackBarStyle': 'hsdone',
+            'SnackBarText': 'New Test Data added Successfully'
+        }
+        return render(request, "testrecords.html", context)
+
+
+def aftList(request):
+    start = datetime.datetime.now()
+    end = datetime.datetime(2030, 12, 18)
+    test2 = Test.objects.filter(date=[start, end])
+    context = {
+        'fname': "Amey",
+        'lname': "Deshpande",
+        'test': test2
+    }
+    return render(request, "testlist.html", context)
 
 def login1(request):
 
