@@ -42,7 +42,6 @@ class TestRecord(models.Model):
 class Attendance(models.Model):
     date = models.DateField()
     stu = models.ForeignKey(Student, on_delete=models.CASCADE)
-    is_pre = models.BooleanField(default=False)
 
 class Notice(models.Model):
     date = models.CharField(max_length=10)
