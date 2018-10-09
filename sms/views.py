@@ -102,11 +102,11 @@ def aft(request):
 def aftList(request):
     start = datetime.datetime.now()
     end = start + datetime.timedelta(days=6)
-    test2 = Test.objects.all()
+    test = Test.objects.all()
     context = {
         'fname': "Amey",
         'lname': "Deshpande",
-        'test': test2
+        'test': test
     }
     return render(request, "testlist.html", context)
 
