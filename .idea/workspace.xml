@@ -2,160 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0719dad6-01b9-4f63-8109-0f8e2ac6abec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/HotSnackbar-master/demo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Black.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Black.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Black.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BlackItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BlackItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BlackItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BoldItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BoldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-BoldItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Hairline.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Hairline.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Hairline.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Hairline.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HairlineItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HairlineItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HairlineItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HairlineItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Heavy.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Heavy.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Heavy.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Heavy.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HeavyItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HeavyItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HeavyItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-HeavyItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Italic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Italic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-LightItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-LightItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-LightItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Medium.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-MediumItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-MediumItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-MediumItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Semibold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Semibold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Semibold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Semibold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-SemiboldItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-SemiboldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-SemiboldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-SemiboldItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-Thin.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-ThinItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-ThinItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/fonts/LatoLatin-ThinItalic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/db/admins/admin_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/db/admins/admin_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/db/students/student_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/system/default-prof-img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/system/logo.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/system/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/img/system/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DBMS.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DBMS/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DBMS/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DBMS/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DBMS/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/migrations/0002_auto_20181009_1327.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/HotSnackbar-master/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/HotSnackbar-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/HotSnackbar-master/hotsnackbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/HotSnackbar-master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/dataTables.bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/dataTables.bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/hotsnackbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/latolatin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/latolatinfonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/LatoLatin/latostyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/dataTables.bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/hotsnackbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/html2canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/jquery.dataTables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/static/js/jsPDF.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/addfeerecords.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/addtestrecords.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/administrators.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/allfeerecords.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/alltestrecords.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/attendance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/downloadfeereceipt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/editfeerecord.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/edittestrecord.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/feerecords.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/notfound.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/studentfeerecord.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/studentprofile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/students.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/studenttestrecord.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/systemsettings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/testrecords.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/userprofile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sms/templates/Attendance.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sms/templates/attendance.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBMS/urls.py" afterPath="$PROJECT_DIR$/DBMS/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms/templates/addtestrecords.html" afterPath="$PROJECT_DIR$/sms/templates/addtestrecords.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sms/views.py" afterPath="$PROJECT_DIR$/sms/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="39" column="80" lean-forward="false" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -185,8 +38,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sms/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -194,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sms/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -210,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/DBMS/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
-              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
               </folding>
@@ -222,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/DBMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -238,9 +91,9 @@
       <list>
         <option value="$PROJECT_DIR$/DBMS/settings.py" />
         <option value="$PROJECT_DIR$/sms/admin.py" />
-        <option value="$PROJECT_DIR$/sms/models.py" />
-        <option value="$PROJECT_DIR$/DBMS/urls.py" />
         <option value="$PROJECT_DIR$/sms/views.py" />
+        <option value="$PROJECT_DIR$/DBMS/urls.py" />
+        <option value="$PROJECT_DIR$/sms/models.py" />
       </list>
     </option>
   </component>
@@ -291,6 +144,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,6 +359,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539084719821</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1539093173065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539093173065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,6 +395,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -524,15 +410,35 @@
     <entry file="file://$PROJECT_DIR$/DBMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="39" column="80" lean-forward="false" selection-start-line="39" selection-start-column="80" selection-end-line="39" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBMS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sms/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -541,30 +447,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sms/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="7" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBMS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,5 +22,5 @@ urlpatterns = [
     path('test/', views.testRecord),
     path('addTestRecords/<int:numR>/', views.addTestMarks),
     path('addtestrecords/<int:number>/', views.addTest),
-    path('attend', views)
+    path('attendance/', views.attendance)
 ]

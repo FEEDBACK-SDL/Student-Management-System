@@ -37,7 +37,8 @@ def addTestMarks(request, numR):
         om = request.POST["obtainedmarks" + str(i)]
         rmks = request.POST["remarks" + str(i)]
         stu = Student.objects.get(rno=3225)
-        test = TestRecord.objects.create(stu=stu, marks=om, test=test)
+        test2 = TestRecord.objects.create(stu=stu, marks=om, test=test, rks=rmks)
+        print(test)
     context = {
         'fname': "Amey",
         'lname': "Deshpande",
@@ -46,3 +47,15 @@ def addTestMarks(request, numR):
         'SnackBarText': 'Test Data added Successfully'
     }
     return render(request, "testrecords.html", context)
+
+
+def attendance(request):
+    m = Student.objects.all()
+    print(m)
+    context = {
+        'fname': "Amey",
+        'lname': "Deshpande",
+        'student': m
+    }
+
+    return render(request, "Attendance.html", context)

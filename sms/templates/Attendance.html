@@ -22,18 +22,14 @@
     {% csrf_token %}
     <section class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-2">
                 <input class="form-control c-p" name="dateT" type="date" value="" placeholder="Date">
             </div>
-            <div class="col-md-3">
-                <input class="form-control c-p" name="sub" type="text" value="" placeholder="Subject">
+            <div class="col-md-4">
             </div>
-            <div class="col-md-3">
-                <input class="form-control c-p" name="tmarks" type="number" value="" placeholder="Total Marks">
-            </div>
-            <div class="col-md-3">
-                <input class="form-control c-p" name="description" type="text" value="" placeholder="Description">
-            </div>
+
         </div>
     </section>
     <section>
@@ -54,33 +50,31 @@
                     <table class="table table-bordered table-condensed" id="studentsTable" style="background:white;">
                         <thead>
                         <tr class="success">
-                            <th class="">St. ID</th>
-                            <th class="">Obtd Marks</th>
-                            <th class="">Remarks</th>
+                            <th class="">
+                                <center>St. ID</center>
+                            </th>
+                            <th class="">
+                                <center>Present/Absent</center>
+                            </th>
                         </tr>
                         </thead>
 
                         <tbody>
 
 
-                        {% for x in i %}
+                        {% for x in student %}
                         <tr class="">
                             <td class="col-md-1">
-                                {% if id %}
-                                <input class="form-control c-p" name="studentID{{x}}" type="text" value="{{ id }}"
-                                       placeholder="St. ID">
-                                {% else %}
-                                <input class="form-control c-p" name="studentID{{x}}" type="text" value=""
-                                       placeholder="St. ID">
-                                {% endif %}
+
+                                <input disabled="" class="form-control c-p mx-auto" name="studentID{{x.rno}}"
+                                       type="text" value="{{ id }}"
+                                       placeholder="{{x.rno}}">
+
                             </td>
                             <td class="col-md-1">
-                                <input class="form-control c-p" name="obtainedmarks{{  x}}" type="text" value=""
-                                       placeholder="Obtained Marks">
-                            </td>
-                            <td class="col-md-1">
-                                <input class="form-control c-p" name="remarks{{x}}" type="text" value=""
-                                       placeholder="Remarks">
+                                <center>
+                                    <label><input type="checkbox" name="ap{{x.rno}}" value=""></label>
+                                </center>
                             </td>
 
                         </tr>
