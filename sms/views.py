@@ -74,3 +74,14 @@ def attendance(request):
             'SnackBarText': 'Attendance  added Successfully'
         }
         return render(request, "testrecords.html", context)
+
+
+def aft(request):
+    if request.method == "GET":
+        context = {
+            'fname': "Amey",
+            'lname': "Deshpande",
+        }
+        return render(request, "aft.html", context)
+    else:
+        pass
