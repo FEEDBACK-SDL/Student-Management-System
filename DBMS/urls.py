@@ -28,5 +28,7 @@ urlpatterns = [
     path('absent/', views.absent, name='absent'),
     path('profile/', views.profile, name='profile'),
     path('profilep/', views.profilep, name='profilep'),
-    path('testList/', views.aftList)
+    path('testList/', views.aftList),
+    path('login', views.loginfunc),
+    path('logout', views.logoutfunc)
 ]

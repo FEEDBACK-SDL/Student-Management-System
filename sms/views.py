@@ -1,14 +1,14 @@
 from django.shortcuts import render
 import datetime
 from .models import *
-
-
+from django.contrib.auth import login, authenticate, logout
+from django.http import HttpResponseRedirect
 # Create your views here.
 
 def testRecord(request):
     context = {
-        'fname': "Amey",
-        'lname': "Deshpande"
+        'fname': request.user.first_name,
+        'lname': request.user.last_name,
     }
     return render(request, "testrecords.html", context)
 
@@ -18,8 +18,8 @@ def addTest(request, number):
     for x in range(number):
         out += str(x)
     context = {
-        'fname': "Amey",
-        'lname': "Deshpande",
+        'fname': request.user.first_name,
+        'lname': request.user.last_name,
         'i': out,
         'number': number
     }
@@ -41,8 +41,8 @@ def addTestMarks(request, numR):
         test2 = TestRecord.objects.create(stu=stu, marks=om, test=test, rks=rmks)
         print(test)
     context = {
-        'fname': "Amey",
-        'lname': "Deshpande",
+        'fname': request.user.first_name,
+        'lname': request.user.last_name,
         'snackBar': True,
         'snackBarStyle': 'hsdone',
         'SnackBarText': 'Test Data added Successfully'
@@ -55,8 +55,8 @@ def attendance(request):
         m = Student.objects.all()
         print(m)
         context = {
-            'fname': "Amey",
-            'lname': "Deshpande",
+            'fname': request.user.first_name,
+            'lname': request.user.last_name,
             'student': m
         }
         return render(request, "Attendance.html", context)
@@ -68,8 +68,8 @@ def attendance(request):
             if not ap:
                 attend = Attendance.objects.create(date=dateT, stu=i)
         context = {
-            'fname': "Amey",
-            'lname': "Deshpande",
+            'fname': request.user.first_name,
+            'lname': request.user.last_name,
             'snackBar': True,
             'snackBarStyle': 'hsdone',
             'SnackBarText': 'Test Data added Successfully'
@@ -78,8 +78,8 @@ def attendance(request):
 def aft(request):
     if request.method == "GET":
         context = {
-            'fname': "Amey",
-            'lname': "Deshpande",
+            'fname': request.user.first_name,
+            'lname': request.user.last_name,
         }
         return render(request, "aft.html", context)
     else:
@@ -104,11 +104,34 @@ def aftList(request):
     end = start + datetime.timedelta(days=6)
     test = Test.objects.all()
     context = {
-        'fname': "Amey",
-        'lname': "Deshpande",
+        'fname': request.user.first_name,
+        'lname': request.user.last_name,
         'test': test
     }
     return render(request, "testlist.html", context)
+
+
+def loginfunc(request):
+    if request.method == "GET":
+        return render(request, "login.html")
+    else:
+        username = request.POST["username"]
+        password = request.POST["password"]
+        u2 = authenticate(request, username=username, password=password)
+        if u2:
+            login(request, u2)
+            return HttpResponseRedirect("/test")
+        else:
+            context = {
+                'error': 'wrong user name Password'
+            }
+            return render(request, "login.html", context)
+
+
+def logoutfunc(request):
+    logout(request)
+
+    return HttpResponseRedirect("/login")
 
 def login1(request):
 
