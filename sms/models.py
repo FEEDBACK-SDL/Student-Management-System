@@ -43,8 +43,17 @@ class Attendance(models.Model):
     date = models.DateField()
     stu = models.ForeignKey(Student, on_delete=models.CASCADE)
 
+
 class Notice(models.Model):
-    date = models.CharField(max_length=10)
+    date = models.DateField()
     notice = models.CharField(max_length=300)
+
     def __str__(self):
-        return self.date
+        return str(self.date)
+
+
+class TimeTable(models.Model):
+    date = models.DateField()
+    subject = models.CharField(max_length=10)
+    time = models.CharField(max_length=10)
+    topic = models.CharField(max_length=50)

@@ -29,6 +29,15 @@ urlpatterns = [
     path('profile/', views.profile, name='profile'),
     path('profilep/', views.profilep, name='profilep'),
     path('testList/', views.aftList),
+    path('timetable/', views.timetable),
+    path('teststudent/', views.tests),
+    path('performance/', views.performance),
+    path('addnotice/', views.addnotice),
+    path('addtimetable/', views.addtimetable),
+    path('dummy/', views.dummy),
+    path('testrank/', views.testrank)
+
+    path('testList/', views.aftList),
     path('login', views.loginfunc),
     path('logout', views.logoutfunc)
 ]
