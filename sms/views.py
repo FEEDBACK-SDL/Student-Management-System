@@ -132,7 +132,7 @@ def loginfunc(request):
 def logoutfunc(request):
     logout(request)
 
-    return HttpResponseRedirect("/login")
+    return HttpResponseRedirect("/")
 
 def login1(request):
 

@@ -3,6 +3,8 @@ from django.contrib.auth.models import User
 
 
 class Student(models.Model):
+    bdate = models.CharField(max_length=44)
+    phone = models.CharField(max_length=10)
     rno = models.IntegerField(default=0, unique=True)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
 
