@@ -35,9 +35,9 @@ urlpatterns = [
     path('addnotice/', views.addnotice),
     path('addtimetable/', views.addtimetable),
     path('dummy/', views.dummy),
-    path('testrank/', views.testrank)
+    path('testrank/', views.testrank),
 
     path('testList/', views.aftList),
-    path('login', views.loginfunc),
-    path('logout', views.logoutfunc)
+    path('/', views.loginfunc),
+    path('logout/', views.logoutfunc)
 ]
