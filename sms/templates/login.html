@@ -44,9 +44,9 @@
             <div class="alert alert-dismissible alert-danger">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                 <strong>{{ error }}</strong>
-            </div>
+            </div>  
             {% endif %}
-            <form method="POST" action="/login">
+            <form method="POST" action="/">
                 {% csrf_token %}
                 <div class="form-group">
                     <label class="control-label" for="login-username">Username:</label>
