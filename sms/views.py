@@ -90,8 +90,8 @@ def aft(request):
         tea = Teacher.objects.get(id=1)
         test = Test.objects.create(subject=subject, date=datet, desc=desc, tm=tmarks, teacher=tea)
         context = {
-            'fname': "Amey",
-            'lname': "Deshpande",
+            'fname': request.user.first_name,
+            'lname': request.user.last_name,
             'snackBar': True,
             'snackBarStyle': 'hsdone',
             'SnackBarText': 'New Test Data added Successfully'
